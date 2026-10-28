@@ -1,0 +1,62 @@
+==========================================
+
+Entorno y Editor
+
+==========================================
+
+Entorno virtual de Python
+
+.venv/
+Olist/.venv/
+
+Archivos de configuración locales de Visual Studio Code
+
+.vscode/
+Olist/.vscode/
+
+==========================================
+
+Datos y Bases de Datos (Evitar subir a GitHub)
+
+==========================================
+
+Ignorar toda la carpeta CSV original (archivos muy pesados)
+
+CSV/
+
+Ignorar las tablas exportadas para Power BI
+
+BI_dim_customers.csv
+BI_dim_products.csv
+BI_fact_sales.csv
+Olist/BI_*.csv
+
+Prevención general para cualquier otro CSV
+
+*.csv
+
+==========================================
+
+Jupyter Notebooks y Python
+
+==========================================
+
+Caché de ejecución de celdas de Jupyter
+
+.ipynb_checkpoints/
+Olist/.ipynb_checkpoints/
+
+Archivos compilados y caché de Python
+
+pycache/
+
+==========================================
+
+Power BI temporales
+
+==========================================
+
+Archivos de bloqueo de Power BI (se crean al abrir el pbix)
+
+.pbixLock
+poweBI_Olise/.pbixLock
